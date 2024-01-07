@@ -1,0 +1,118 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../Images/backgroundImage.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /*background-color: #343a40;*/
+    background-blend-mode: hue;
+    background-color: rgba(52, 58, 64, 0.5);
+    color: rgba(255, 255, 255, 0.62);
+}
+
+
+.distance-slider {
+    margin-top: 5px;
+    align-items: center; /* vertically center content */
+
+}
+
+.autoCompleteLine {
+    margin-top: 10px;
+    display: flex;
+
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22vh;
+    width: 60%;
+    height: calc(100vh - 40vh);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    backdrop-filter: blur(1px);
+}
+
+/*.jumbotron::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    background-image: url('../Images/backgroundImage.jpg');*/
+/*    opacity: 0.9; !* set your desired opacity value *!*/
+/*    z-index: -1; !* position the pseudo-element behind the parent element *!*/
+/*}*/
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+
+.btn-primary:hover {
+    background-color: #0062cc;
+}
+

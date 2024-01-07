@@ -1,0 +1,136 @@
+.login-register-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-top: 50px;*/
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../Images/backgroundImage.jpg');
+    background-size: cover;
+    /*opacity: 0.7; !* adjust opacity to desired level *!*/
+
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    /*margin-bottom: 30px;*/
+}
+
+/*make the tabs look like tabs and rounded edges*/
+.tab {
+    background-color: darkgrey;
+    border-radius: 5px 5px 0 0;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: black;
+
+}
+
+.tab:hover {
+    border-bottom: 3px solid #ccc;
+}
+
+.tab.active {
+    /*border-bottom: 5px solid #007bff;*/
+    background-color: white;
+    border-bottom: 3px solid #007bff;
+
+
+}
+
+.card {
+    /*background-color: #fff;*/
+    background-image: url('../Images/cardBackground.jpg');
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /*background-color: #343a40;*/
+    background-blend-mode: hue;
+    background-color: rgba(52, 58, 64, 0.5);
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}

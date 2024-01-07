@@ -1,0 +1,114 @@
+.edit-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../Images/backgroundImage.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    /*background-color: #343a40;*/
+    background-blend-mode: hue;
+    background-color: rgba(52, 58, 64, 0.5);
+    color: rgba(255, 255, 255, 0.62);
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.account-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.labelEdit {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    min-width: 100px;
+}
+
+.value {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
